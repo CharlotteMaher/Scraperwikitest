@@ -1,3 +1,3 @@
-import scraperwiki
-html = scraperwiki.scrape('https://scraperwiki.com/hello_world.html')
+import BBCNEWS
+html = BBCNEWS.scrape('https://www.bbc.co.uk/news')
 print html
